@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+/home/german/globant/venv
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+database.db/
+QUERY.py
+reset.py
+backup.py
+jobs.csv
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+# Environment-specific files
+.env
