@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port number that Streamlit listens on
-EXPOSE 8501
+EXPOSE 8080
 
 # Run app.py when the container launches
-CMD ["streamlit", "run", "--server.port", "8501", "main.py"]
+CMD ["streamlit", "run", "--server.port", "8080", "main.py"]

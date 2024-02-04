@@ -48,6 +48,13 @@ jobs.csv
 *.njsproj
 *.sln
 *.swp
-
 # Environment-specific files
 .env
+.terraform
+sa-ubuntuzenbook.json
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+
+
